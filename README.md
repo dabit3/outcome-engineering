@@ -10,7 +10,7 @@
 
 *Ambition is unbound*. The most challenging part of a big idea was never starting it, it was finishing it and maintaining it forever. Now that our systems can do both we can be more ambitious.
 
-*Experimentation as a first principle*. Every open question becomes something we can just test. A wrong guess is now longer an opportunity cost because the system can be wrong N number of times on the way to being right (and in parallel).
+*Experimentation as a first principle*. Every open question becomes something we can just test. A wrong guess is no longer an opportunity cost because the system can be wrong N number of times on the way to being right (and in parallel).
 
 Outcome engineering is where we fully give in to your imagination, embrace ambition, and forget that the underlying system and machinery exist.
 
