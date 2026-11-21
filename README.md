@@ -6,7 +6,7 @@
 
 *Human attention is for decisions*. People should step in only for judgment calls a human should make. The system should be smart enough to surface these and notify us when an answer is needed.
 
-*“Done” is a state*. The system should be responsible for the work for as long as we depend on the outcome.
+*“Done” is a state*. The system should be responsible for the work for as long as we depend on the outcome. It doesn’t wait to be told something broke; it proactively notices when reality drifts from the outcome and acts before we ask.
 
 *Ambition is unbound*. The most challenging part of a big idea was never starting it, it was finishing it and maintaining it forever. Now that our systems can do both we can be more ambitious.
 
