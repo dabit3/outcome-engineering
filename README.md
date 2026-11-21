@@ -14,4 +14,4 @@
 
 Outcome engineering is where we fully give in to our imagination, embrace ambition, and forget that the underlying system and machinery exist.
 
-This way of building is now becoming possible due to the emergence of proactive, perpetual, self-verifying systems. Outcome engineering is already being embraced by some of the best engineers I know and I think will define Software Engineering in 2027.
+This way of building is now becoming possible due to the emergence of proactive, perpetual, self-verifying systems. Outcome engineering is already being embraced by some of the best engineers I know and I think will redefine software engineering in 2027.
