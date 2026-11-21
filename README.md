@@ -12,6 +12,6 @@
 
 *Experimentation as a first principle*. Every open question becomes something we can just test. A wrong guess is no longer an opportunity cost because the system can be wrong N number of times on the way to being right (and in parallel).
 
-Outcome engineering is where we fully give in to your imagination, embrace ambition, and forget that the underlying system and machinery exist.
+Outcome engineering is where we fully give in to our imagination, embrace ambition, and forget that the underlying system and machinery exist.
 
 This mental model is already being embraced by some of the best engineers I know and I think will define Software Engineering in 2027.
