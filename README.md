@@ -8,7 +8,7 @@
 
 *“Done” is a state*. The system should be responsible for the work for as long as we depend on the outcome.
 
-*Ambition is unbound*. The hardest part of a big idea was never starting it, it was finishing it and maintaining it forever. Now that our systems can do both we can be more ambitious.
+*Ambition is unbound*. The most challenging part of a big idea was never starting it, it was finishing it and maintaining it forever. Now that our systems can do both we can be more ambitious.
 
 *Experimentation as a first principle*. Every open question becomes something we can just test. A wrong guess is now longer an opportunity cost because the system can be wrong N number of times on the way to being right (and in parallel).
 
