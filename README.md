@@ -2,7 +2,7 @@
 
 *Outcome as the new unit of work*. We as humans provide a statement of what should remain true at the end. “Build this Android app” is a goal, “Build an Android version of our iOS app and keep it at parity forever” is an outcome.
 
-*Machinery should be invisible*. Skills, Loops, /goal, automations, verification, memory, plugins, connectors, and subagents all matter, but almost none of it should be our responsibility. We should bring an outcome, the system should manage / abstract away everything else.
+*Machinery should be invisible*. Skills, Loops, /goal, automations, verification, memory, context, plugins, connectors, and subagents all matter, but almost none of it should be our responsibility. We should bring an outcome, the system should manage / abstract away everything else.
 
 *Human attention is for decisions*. People should step in only for judgment calls a human should make. The system should be smart enough to surface these and notify us when an answer is needed.
 
