@@ -2,13 +2,17 @@
 
 *Outcome as the new unit of work*. We as humans provide a statement of what should remain true at the end. “Build this Android app” is a goal, “Build an Android version of our iOS app and keep it at parity forever” is an outcome.
 
-*Machinery should be invisible*. Skills, Loops, /goal, automations, verification, memory, context, plugins, connectors, and subagents all matter, but almost none of it should be our responsibility. We should bring an outcome, the system should manage / abstract away everything else.
+*An outcome carries its own proof*. A good outcome says how the system will know it is true. “Optimize this” is a wish, “make this 10x faster” is a target the system can measure itself against. The precision of the outcome is now where our craft lives.
+
+*Machinery should be invisible*. Skills, Loops, /goal, automations, verification, memory, context, plugins, connectors, and subagents all matter, but almost none of it should be our responsibility. We should bring an outcome, the system should manage / abstract away everything else. Invisible is not opaque: we can always look inside, the way we can always read the code, but that is for debugging, not the interface.
 
 *Human attention is for decisions*. People should step in only for judgment calls a human should make. The system should be smart enough to surface these and notify us when an answer is needed.
 
-*“Done” is a state*. The system should be responsible for the work for as long as we depend on the outcome. It proactively keeps the outcome true and looks for ways to make it better, without waiting for us to ask.
+*“Done” is a state*. The system should be responsible for the work for as long as we depend on the outcome. It watches the world for changes, proactively keeps the outcome true, and looks for ways to make it better, without waiting for us to ask. The outcome is the durable asset; the code beneath it can be rewritten as many times as it takes.
 
 *Ambition is unbound*. The most challenging part of a big idea was never starting it, it was finishing it and maintaining it forever. Now that our systems can do both we can be more ambitious.
+
+*Authority is bound*. A system that works perpetually and proactively needs a clear limit on what it may touch. We state what the system is allowed to do alongside what we want, and that boundary is what lets us step away.
 
 *Experimentation as a first principle*. Every open question becomes something we can just test. A wrong guess is no longer an opportunity cost because the system can be wrong N number of times on the way to being right (and in parallel).
 
