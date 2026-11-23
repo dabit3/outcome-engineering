@@ -2,7 +2,7 @@
 
 *Outcome as the new unit of work*. We as humans provide a statement of what should remain true at the end. “Build this Android app” is a goal, “Build an Android version of our iOS app and keep it at parity forever” is an outcome.
 
-*An outcome carries its own proof*. A good outcome says how the system will know it is true. “Optimize this” is a wish, “keep checkout under 200ms for 95% of requests” is a target the system can measure itself against. How well we define the outcome sets the ceiling on what the system can deliver and is the important work we still do by hand.
+*An outcome carries its own proof*. A good outcome says how the system will know it is true. “Fix the bug from this support ticket” is a wish, “every support ticket caused by a bug ends in a shipped fix and a reply to the customer” is a target the system can measure itself against. How well we define the outcome sets the ceiling on what the system can deliver and is the important work we still do by hand.
 
 *Machinery should be invisible*. Skills, Loops, /goal, automations, verification, memory, context, plugins, connectors, and subagents all matter, but almost none of it should be our responsibility. We should bring an outcome, the system should manage / abstract away everything else. Like compiled code, we can read what's underneath, but we rarely need to.
 
