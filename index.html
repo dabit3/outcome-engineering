@@ -13,7 +13,8 @@
 <link rel="preload" href="fonts/sohne-subset-0.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/newsreader-subset-0.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
-<style>@media (prefers-color-scheme:light){:root{--gray1:#fcfcfc;--gray2:#f9f9f9;--gray3:#f0f0f0;--gray4:#e8e8e8;--gray5:#e0e0e0;--gray6:#d9d9d9;--gray7:#cecece;--gray8:#bbb;--gray9:#8d8d8d;--gray10:#838383;--gray11:#646464;--gray12:#202020}}[data-animate]{--delay:.06s}@media (prefers-reduced-motion:no-preference){[data-animate]{animation-duration:.3s}}footer a.quiet{color:inherit;transition:color .15s ease}footer a.quiet:hover{color:var(--mono12)}</style>
+<style>@media (prefers-color-scheme:light){:root:not([data-theme=dark]){--gray1:#fcfcfc;--gray2:#f9f9f9;--gray3:#f0f0f0;--gray4:#e8e8e8;--gray5:#e0e0e0;--gray6:#d9d9d9;--gray7:#cecece;--gray8:#bbb;--gray9:#8d8d8d;--gray10:#838383;--gray11:#646464;--gray12:#202020}}:root[data-theme=light]{--gray1:#fcfcfc;--gray2:#f9f9f9;--gray3:#f0f0f0;--gray4:#e8e8e8;--gray5:#e0e0e0;--gray6:#d9d9d9;--gray7:#cecece;--gray8:#bbb;--gray9:#8d8d8d;--gray10:#838383;--gray11:#646464;--gray12:#202020}[data-animate]{--delay:.06s}@media (prefers-reduced-motion:no-preference){[data-animate]{animation-duration:.3s}}footer a.quiet{color:inherit;transition:color .15s ease}footer a.quiet:hover{color:var(--mono12)}footer>div>span+span{margin-left:16px}.theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;padding:0;border:0;background:none;color:inherit;cursor:pointer;opacity:.6;transition:opacity .15s ease,color .15s ease}.theme-toggle:hover,.theme-toggle:focus-visible{opacity:1;color:var(--mono12)}.theme-toggle svg{width:12px;height:12px}</style>
+<script>(function(){try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}})()</script>
 </head>
 <body>
 <div id="__next">
@@ -42,8 +43,10 @@
 <div>
 <span basics-color="lowcontrast" basics-size="small" basics-text>Design inspired by <a class="quiet" basics-variant="text" basics-link href="https://paco.me/" rel="noopener" target="_blank">paco.me</a></span>
 <span basics-color="lowcontrast" basics-size="small" basics-text><a class="quiet" basics-variant="text" basics-link href="https://github.com/dabit3/outcome-engineering" rel="noopener" target="_blank">GitHub</a></span>
+<span basics-color="lowcontrast" basics-size="small" basics-text><button type="button" class="theme-toggle" aria-label="Toggle light mode" title="Toggle theme"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6.25" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.75a6.25 6.25 0 0 1 0 12.5z" fill="currentColor"/></svg></button></span>
 </div>
 </footer>
 </div>
+<script>(function(){var r=document.documentElement,b=document.querySelector(".theme-toggle"),d=matchMedia("(prefers-color-scheme: dark)");function cur(){return r.getAttribute("data-theme")||(d.matches?"dark":"light")}function sync(){var t=cur();b.setAttribute("aria-label",t==="dark"?"Switch to light mode":"Switch to dark mode");document.querySelectorAll('meta[name="theme-color"]').forEach(function(m){if(r.hasAttribute("data-theme"))m.setAttribute("content",t==="dark"?"#1c1c1c":"#ffffff");else m.setAttribute("content",m.media.indexOf("dark")>-1?"#1c1c1c":"#ffffff")})}b.addEventListener("click",function(){var t=cur()==="dark"?"light":"dark";r.setAttribute("data-theme",t);try{localStorage.setItem("theme",t)}catch(e){}sync()});d.addEventListener("change",sync);sync()})()</script>
 </body>
 </html>
