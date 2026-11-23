@@ -14,7 +14,7 @@
 
 *Authority is bound*. A system that works perpetually and proactively needs a clear limit on what it may touch. We state what the system is allowed to do alongside what we want, and that boundary is what lets us step away.
 
-*Experimentation as a first principle*. Every open question becomes something we can just test. A wrong guess is no longer an opportunity cost because the system can be wrong N number of times on the way to being right (and in parallel).
+*Experimentation as a first principle*. Every open question becomes something we can just test. A wrong guess is no longer an opportunity cost because the system can be wrong N times on the way to being right (and in parallel).
 
 Outcome engineering is where we fully give in to our imagination, embrace ambition, and forget that the underlying system and machinery exist.
 
