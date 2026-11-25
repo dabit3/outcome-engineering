@@ -12,7 +12,7 @@
 
 *Ambition is unbound*. The most challenging part of a big idea was never starting it, it was finishing it and maintaining it forever. Now that our systems can do both we can be more ambitious.
 
-*Authority is bound*. A system that works perpetually and proactively needs a clear limit on what it may touch. We state what the system is allowed to do alongside what we want, and that boundary is what lets us step away.
+*Authority is bound*. A system that works perpetually and proactively needs a clear limit on what it may touch. We state what the system is allowed to do alongside what we want. Then we can leave it alone.
 
 *Experimentation as a first principle*. Every open question becomes something we can just test. A wrong guess is no longer an opportunity cost because the system can be wrong N times on the way to being right (and in parallel).
 
